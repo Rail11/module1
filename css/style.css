@@ -19,7 +19,8 @@ body {
 }
 
 .container {
-    width: 1120px;
+    max-width: 1140px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -27,6 +28,7 @@ body {
     display: flex;
     align-items: center;
     padding-top: 68px;
+    margin-bottom: 143px;
 }
 
 .logo {
@@ -58,4 +60,129 @@ body {
     font-weight: 500;
     line-height: 160%;
     color: rgb(33, 35, 83);
+}
+
+.about {
+    position: relative;
+    margin-bottom: 193px;
+}
+.about__header {
+    color: rgb(33, 35, 83);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+    width: 55%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.about__text {
+    color: rgb(75, 93, 104);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    width: 33.5%;
+    margin-bottom: 50px;
+}
+
+.about__btn {
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(156, 105, 226);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 16px 37px;
+}
+
+.about__img {
+    width: 75%;
+    position: absolute;
+    top: 20%;
+    left: 33.5%;
+    z-index: -1;
+}
+
+.description {
+    display: flex;
+    border-radius: 50px;
+    background: rgba(240, 99, 184, 0.15);
+    padding: 32px 93px 32px 16px;
+    margin-bottom: 150px;
+}
+
+.description__img {
+    width: 47%;
+    flex-shrink: 0;
+    margin-right: 65px;
+}
+
+.description__text-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.description__header {
+    color: rgb(33, 35, 83);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.description__text {
+    color: rgb(75, 93, 104);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.features {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.features__header {
+    color: rgb(33, 35, 83);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features__subheader {
+    display: inline-block;
+    color: rgb(75, 93, 104);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    width: 53%;
+    margin-bottom: 100px;
+}
+
+.features__items {
+
+}
+
+.features__item {
+
+}
+
+.features__item-img {
+
+}
+
+.features__item-title {
+
+}
+
+.features__item-text {
+
+}
+
+.features__item-btn {
+
 }
